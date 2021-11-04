@@ -1,3 +1,3 @@
-# Design 2 Flutter - Social Media Profile Screen
+# RaiinMaker Clone App
 
 Design by Abdulmalik.
