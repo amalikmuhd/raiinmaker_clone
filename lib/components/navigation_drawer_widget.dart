@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_profile_screen/screens/maintabbar_screen/grow.dart';
-import 'package:social_media_profile_screen/screens/maintabbar_screen/home.dart';
 import 'package:social_media_profile_screen/utilities/constants.dart';
 
 class NavigationDrawerWidget extends StatefulWidget {

@@ -3,6 +3,7 @@ import 'package:social_media_profile_screen/components/checkbox.dart';
 import 'package:social_media_profile_screen/components/default_button.dart';
 import 'package:social_media_profile_screen/components/main_logo.dart';
 import 'package:social_media_profile_screen/components/recovery_button.dart';
+import 'package:social_media_profile_screen/screens/loading_two.dart';
 
 class RecoveryScreen extends StatefulWidget {
   static final String routeName = "recovery_screen";
@@ -38,7 +39,7 @@ class _RecoveryScreenState extends State<RecoveryScreen> {
                   DefaultButton(
                     title: 'Recovery Account',
                     onPressed: () {
-                      Navigator.pop(context);
+                      Navigator.pushNamed(context, LoadingScreenTwo.routeName);
                     },
                   ),
                   // SizedBox(height: padding),

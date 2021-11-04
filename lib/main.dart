@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_profile_screen/screens/login_screen.dart';
-import 'package:social_media_profile_screen/screens/recovery_screen.dart';
+import 'package:social_media_profile_screen/screens/loading.dart';
 import 'package:social_media_profile_screen/utilities/routes.dart';
 
 const mockupHeight = 812;
@@ -13,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.routeName,
+      debugShowCheckedModeBanner: false,
+      initialRoute: LoadingScreen.routeName,
       routes: routes,
     );
   }

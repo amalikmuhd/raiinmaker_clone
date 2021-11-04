@@ -3,6 +3,7 @@ import 'package:social_media_profile_screen/components/checkbox.dart';
 import 'package:social_media_profile_screen/components/default_button.dart';
 import 'package:social_media_profile_screen/components/main_logo.dart';
 import 'package:social_media_profile_screen/components/recovery_button.dart';
+import 'package:social_media_profile_screen/screens/loading_two.dart';
 import 'package:social_media_profile_screen/screens/recovery_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -29,7 +30,9 @@ class _LoginScreenState extends State<LoginScreen> {
               SizedBox(height: padding),
               DefaultButton(
                 title: 'Create New Account',
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, LoadingScreenTwo.routeName);
+                },
               ),
               SizedBox(height: padding),
               RecoveryButton(

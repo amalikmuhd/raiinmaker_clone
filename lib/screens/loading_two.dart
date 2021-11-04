@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_profile_screen/screens/login_screen.dart';
+import 'package:social_media_profile_screen/screens/maintabbar_screen/maintabbar_screen.dart';
 import 'package:social_media_profile_screen/utilities/constants.dart';
 
-class LoadingScreen extends StatefulWidget {
-  static final String routeName = "loading_screen";
+class LoadingScreenTwo extends StatefulWidget {
+  static final String routeName = "loading_screen_two";
 
   @override
-  State<LoadingScreen> createState() => _LoadingScreenState();
+  State<LoadingScreenTwo> createState() => _LoadingScreenTwoState();
 }
 
-class _LoadingScreenState extends State<LoadingScreen> {
+class _LoadingScreenTwoState extends State<LoadingScreenTwo> {
   @override
   void initState() {
     super.initState();
@@ -18,7 +18,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   void goToNextScreen() async {
     await Future.delayed(Duration(seconds: 5), () {
-      Navigator.pushNamed(context, LoginScreen.routeName);
+      Navigator.pushNamed(context, MainTabBarScreen.routeName);
     });
   }
 
