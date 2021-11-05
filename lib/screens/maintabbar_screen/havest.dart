@@ -16,9 +16,7 @@ class HavestScreen extends StatelessWidget {
         shadowColor: Colors.orangeAccent,
         title: Text("havest", style: kappbarTitle),
       ),
-      body: Container(
-        color: Colors.orangeAccent,
-      ),
+      body: Center(child: CircularProgressIndicator()),
     );
   }
 }

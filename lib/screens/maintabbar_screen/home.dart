@@ -23,9 +23,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(
-        color: Colors.white,
-      ),
+      body: Center(child: CircularProgressIndicator()),
     );
   }
 }

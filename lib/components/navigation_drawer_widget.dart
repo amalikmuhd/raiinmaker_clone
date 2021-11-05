@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_media_profile_screen/screens/maintabbar_screen/account_settings.dart';
 import 'package:social_media_profile_screen/utilities/constants.dart';
 
 class NavigationDrawerWidget extends StatefulWidget {
@@ -32,7 +33,7 @@ class _NavigationDrawerWidgetState extends State<NavigationDrawerWidget> {
             buildMenuItem(
                 text: "Account",
                 icon: Icon(Icons.person),
-                onTap: () => selectedItem(context, 0)),
+                onTap: () => selectedItem(context, 2)),
             buildMenuItem(
                 text: "Contact Support",
                 icon: Icon(Icons.contact_mail),
@@ -98,8 +99,8 @@ class _NavigationDrawerWidgetState extends State<NavigationDrawerWidget> {
     Navigator.of(context).pop();
     switch (index) {
       case 2:
-        // Navigator.of(context)
-        //     .push(MaterialPageRoute(builder: (context) => HomeScreen()));
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => AccountSetting()));
         break;
 
       case 3:

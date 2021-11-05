@@ -23,9 +23,7 @@ class ProfileScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(
-        color: Colors.greenAccent,
-      ),
+      body: Center(child: CircularProgressIndicator()),
     );
   }
 }

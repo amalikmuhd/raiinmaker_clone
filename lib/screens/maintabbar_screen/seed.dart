@@ -30,9 +30,7 @@ class _SeedScreenState extends State<SeedScreen> {
             ],
           ),
           Expanded(
-            child: Container(
-              color: Colors.greenAccent,
-            ),
+            child: Center(child: CircularProgressIndicator()),
           ),
         ],
       ),
