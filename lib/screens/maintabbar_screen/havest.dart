@@ -13,6 +13,10 @@ class HavestScreen extends StatelessWidget {
         foregroundColor: Colors.black,
         elevation: 1,
         shadowColor: Colors.orangeAccent,
+        title: Text(
+          "havest",
+          style: TextStyle(fontSize: 30, color: Colors.black45),
+        ),
       ),
       body: Container(
         color: Colors.orangeAccent,
