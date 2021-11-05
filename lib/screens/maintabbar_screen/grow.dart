@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/components/navigation_drawer_widget.dart';
+import 'package:social_media_profile_screen/utilities/constants.dart';
 
 class GrowScreen extends StatefulWidget {
   @override
@@ -31,10 +32,7 @@ class _GrowScreenState extends State<GrowScreen>
         foregroundColor: Colors.black,
         elevation: 1,
         shadowColor: Colors.orangeAccent,
-        title: Text(
-          "grow",
-          style: TextStyle(fontSize: 30, color: Colors.black45),
-        ),
+        title: Text("grow", style: kappbarTitle),
       ),
       body: Column(
         children: [

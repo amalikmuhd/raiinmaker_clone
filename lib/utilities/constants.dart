@@ -14,5 +14,7 @@ TextStyle ktermsAndConditionsStyle =
 TextStyle kRecoveryButtonStyle =
     TextStyle(decoration: TextDecoration.underline, color: Colors.black87);
 
+TextStyle kappbarTitle = TextStyle(fontSize: 30, color: Colors.black45);
+
 String termsAndConditions =
     'Yes, I understand and agree to the Raiinmaker Terms of Service. including the User Agreement and Privacy Policy';
